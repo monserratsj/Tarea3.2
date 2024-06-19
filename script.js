@@ -1,5 +1,5 @@
 const apiKey = 'b021c750b3c3805b9fba49146db3d53c'; //API key
-const city = 'London'; // Ciudad
+const city = 'Seattle'; // Ciudad
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=es`;
 
 async function getWeather() {
