@@ -13,7 +13,7 @@ function simulatedServerRequest() {
                 // Error
                 reject(new Error("Error en la solicitud al servidor"));
             }
-        }, 2000);
+        }, 10000);
     });
 }
 
